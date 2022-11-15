@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "130870590514",
+    "firebase_url": "https://tiktokrec-45c6d-default-rtdb.firebaseio.com",
+    "project_id": "tiktokrec-45c6d",
+    "storage_bucket": "tiktokrec-45c6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130870590514:android:e1de81e63913404dbdd02b",
+        "android_client_info": {
+          "package_name": "app.jesica.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130870590514-e0g7a55attr87oidpnn5r17en9u6m41o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.jesica.firebaseauth",
+            "certificate_hash": "ce22153f756ca44a4d34cad0acc75a66943f3b8f"
+          }
+        },
+        {
+          "client_id": "130870590514-pdt85ul6746rnt22mtcqgk5nltj8b36c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzyfVGh5AGfy6t10lrWRGfciLXrcsKDOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130870590514-pdt85ul6746rnt22mtcqgk5nltj8b36c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130870590514:android:49601a95d813e97abdd02b",
+        "android_client_info": {
+          "package_name": "com.tiktokrec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130870590514-vmat5c6tcqra2kamf61eqop729orpis3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tiktokrec",
+            "certificate_hash": "ce22153f756ca44a4d34cad0acc75a66943f3b8f"
+          }
+        },
+        {
+          "client_id": "130870590514-pdt85ul6746rnt22mtcqgk5nltj8b36c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzyfVGh5AGfy6t10lrWRGfciLXrcsKDOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130870590514-pdt85ul6746rnt22mtcqgk5nltj8b36c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130870590514:android:b55d5aeb8977fadabdd02b",
+        "android_client_info": {
+          "package_name": "k.studio.tiktokrec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130870590514-pdt85ul6746rnt22mtcqgk5nltj8b36c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzyfVGh5AGfy6t10lrWRGfciLXrcsKDOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130870590514-pdt85ul6746rnt22mtcqgk5nltj8b36c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

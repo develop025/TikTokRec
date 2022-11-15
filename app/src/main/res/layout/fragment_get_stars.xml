@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.GetStarsFragment">
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_item_get_stars" />
+
+    <Button
+        android:id="@+id/clearUniqueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear unique" />
+
+    <Button
+        android:id="@+id/clearOrdersButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear orders" />
+
+    <Button
+        android:id="@+id/resetOrderAtButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset order at button" />
+</LinearLayout>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name" translatable="false">My Application</string>
+    <string name="username" translatable="false">TikTok username</string>
+    <string name="enter" translatable="false">Enter</string>
+    <string name="empty_username" translatable="false">Username cannot be empty</string>
+    <string name="error_dialog_title" translatable="false">Error</string>
+    <string name="error_check_tik_tok_username_spelling" translatable="false">TikTok username not found. Please check your spelling and try again</string>
+    <string name="unknown_error" translatable="false">An unknown error occurred</string>
+    <string name="no_internet_connection_tiktok" translatable="false">Sorry, we can’t connect to TikTok. Please make sure you’re connected to the Internet and try again</string>
+    <string name="no_internet_connection_firebase" translatable="false">Sorry, we can’t complete the action. Please make sure you’re connected to the Internet and try again</string>
+    <string name="signed_out" translatable="false">Signed Out</string>
+    <string name="hint_email" translatable="false">Email</string>
+    <string name="hint_password" translatable="false">Password</string>
+    <string name="sign_up" translatable="false">Sign up</string>
+    <string name="sign_in" translatable="false">Sign in</string>
+    <string name="google" translatable="false">Google</string>
+    <string name="hint_confirm_password" translatable="false">Confirm password</string>
+    <string name="sign_out" translatable="false">Sign out</string>
+    <string name="error_invalid_email" translatable="false">The email address is badly formatted. Please try double-checking the recipient’s email address for typos or unnecessary spaces</string>
+    <string name="error_wrong_password" translatable="false">The password is invalid or the user does not have a password</string>
+    <string name="error_email_already_in_use" translatable="false">The email address is already in use by another account.</string>
+    <string name="firebase_block_request" translatable="false">Sorry, we can’t complete the action now. Too many consecutive requests. Retry later to resolve</string>
+    <string name="firebase_api_not_available" translatable="false">Sorry, we can’t complete the action</string>
+    <string name="firebase_unknown_error" translatable="false">Sorry, we can’t complete the action now. Please try again later</string>
+    <string name="error_weak_password" translatable="false">Password should be at least 6 characters</string>
+    <string name="error_user_not_found" translatable="false">The email account that you tried to reach does not exist. Please try double-checking the recipient’s email address for typos or unnecessary spaces</string>
+    <string name="email_yet_not_verified" translatable="false">Email:%1$s is yet not verified. Check your email:%1$s and locate the confirmation email. Follow the steps in the email to confirm your email address</string>
+    <string name="confirm_email" translatable="false">Check your email:%1$s and locate the confirmation email. Follow the steps in the email to confirm your email address</string>
+    <string name="dialog_title" translatable="false">Congratulation</string>
+    <string name="verification_email_sent" translatable="false">Verification email sent to %1$s</string>
+    <string name="verification_email_sent_error" translatable="false">Failed to send verification email</string>
+    <string name="email_not_exist" translatable="false">Email not exist for current user</string>
+    <string name="user_not_authorized" translatable="false">User not authorized</string>
+    <string name="google_authorization_fail" translatable="false">Google authorization fail</string>
+    <string name="account_authorization_fail" translatable="false">Google authorization fail. Please make sure you’re connected to the Internet and try again</string>
+    <string name="menu_item_get_stars" translatable="false">Get stars</string>
+    <string name="menu_item_promote" translatable="false">Promote</string>
+    <string name="menu_item_profile" translatable="false">Profile</string>
+    <string name="video_link" translatable="false">Video link</string>
+    <string name="start_promote" translatable="false">Start promote</string>
+    <string name="wind_up_likes_50" translatable="false">Wind up 100 likes</string>
+    <string name="tiktok_like_image_description">Like</string>
+    <string name="new_orders_missing">New orders missing</string>
+    <string name="data_stale">The transaction needs to be run again with current data</string>
+    <string name="operation_failed">The server indicated that this operation failed</string>
+    <string name="permission_denied">This client does not have permission to perform this operation</string>
+    <string name="disconnected">The operation had to be aborted due to a network disconnect</string>
+    <string name="expired_token">The supplied auth token has expired</string>
+    <string name="invalid_token">The supplied auth token was invalid</string>
+    <string name="max_retries">The transaction had too many retries</string>
+    <string name="overridden_by_set">The transaction was overridden by a subsequent set</string>
+    <string name="unavailable">The service is unavailable</string>
+    <string name="user_code_exception">User code called from the Firebase Database runloop threw an exception</string>
+    <string name="network_error">The operation could not be performed due to a network error</string>
+    <string name="write_canceled">The write was canceled by the user.</string>
+</resources>

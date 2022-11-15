@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/getStarsFragment"
+        android:icon="@drawable/ic_star_24"
+        android:title="@string/menu_item_get_stars" />
+
+    <item
+        android:id="@+id/promoteFragment"
+        android:icon="@drawable/ic_heart_24"
+        android:title="@string/menu_item_promote" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_person_24"
+        android:title="@string/menu_item_profile" />
+
+</menu>

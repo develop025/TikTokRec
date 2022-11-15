@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="k.studio.tiktokrec.ui.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_emailVerificationFragment"
+            app:destination="@id/emailVerificationFragment"
+            app:popUpTo="@id/splashFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_getStarsFragment"
+            app:destination="@id/getStarsFragment"
+            app:popUpTo="@id/splashFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_tikTokAuthFragment"
+            app:destination="@id/tikTokAuthFragment"
+            app:popUpTo="@id/splashFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_authorizationFragment"
+            app:destination="@id/authorizationFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/tikTokAuthFragment"
+        android:name="k.studio.tiktokrec.ui.auth.TikTokAuthFragment"
+        android:label="fragment_tik_tok_auth"
+        tools:layout="@layout/fragment_tik_tok_auth">
+        <action
+            android:id="@+id/action_tikTokAuthFragment_to_emailVerificationFragment"
+            app:destination="@id/emailVerificationFragment"
+            app:popUpTo="@id/tikTokAuthFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_tikTokAuthFragment_to_getStarsFragment"
+            app:destination="@id/getStarsFragment"
+            app:popUpTo="@id/tikTokAuthFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_tikTokAuthFragment_to_authorizationFragment"
+            app:destination="@id/authorizationFragment"
+            app:popUpTo="@id/tikTokAuthFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/authorizationFragment"
+        android:name="k.studio.tiktokrec.ui.auth.AuthorizationFragment"
+        android:label="fragment_email_auth"
+        tools:layout="@layout/fragment_authorization">
+        <action
+            android:id="@+id/action_emailAuthFragment_to_emailVerificationFragment"
+            app:destination="@id/emailVerificationFragment"
+            app:popUpTo="@id/authorizationFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_emailAuthFragment_to_getStarsFragment"
+            app:destination="@id/getStarsFragment"
+            app:popUpTo="@id/authorizationFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/emailVerificationFragment"
+        android:name="k.studio.tiktokrec.ui.auth.EmailVerificationFragment"
+        android:label="fragment_email_confirmation"
+        tools:layout="@layout/fragment_email_verification">
+        <action
+            android:id="@+id/action_emailVerificationFragment_to_getStarsFragment"
+            app:destination="@id/getStarsFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/emailVerificationFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_emailVerificationFragment_to_authorizationFragment"
+            app:destination="@id/authorizationFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/emailVerificationFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/getStarsFragment"
+        android:name="k.studio.tiktokrec.ui.home.GetStarsFragment"
+        android:label="fragment_action"
+        tools:layout="@layout/fragment_get_stars">
+        <action
+            android:id="@+id/action_getStarsFragment_to_permissionDrawOverAnotherAppsFragment"
+            app:destination="@id/permissionDrawOverAnotherAppsFragment"
+            app:popUpTo="@id/getStarsFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_getStarsFragment_to_permissionAccessibilityServiceFragment"
+            app:destination="@id/permissionAccessibilityServiceFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/getStarsFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_getStarsFragment_to_tikTokAuthFragment"
+            app:destination="@id/tikTokAuthFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/getStarsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/promoteFragment"
+        android:name="k.studio.tiktokrec.ui.home.PromoteFragment"
+        android:label="fragment_promote"
+        tools:layout="@layout/fragment_promote" >
+        <action
+            android:id="@+id/action_promoteFragment_to_tikTokAuthFragment"
+            app:destination="@id/tikTokAuthFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/promoteFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="k.studio.tiktokrec.ui.home.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_tikTokAuthFragment"
+            app:destination="@id/tikTokAuthFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/profileFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/permissionDrawOverAnotherAppsFragment"
+        android:name="k.studio.tiktokrec.ui.permissions.drawover.PermissionDrawOverAnotherAppsFragment"
+        android:label="fragment_permission_draw_over_another_apps"
+        tools:layout="@layout/fragment_permission_draw_over_another_apps" >
+        <action
+            android:id="@+id/action_permissionDrawOverAnotherAppsFragment_to_getStarsFragment"
+            app:destination="@id/getStarsFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/permissionDrawOverAnotherAppsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/permissionAccessibilityServiceFragment"
+        android:name="k.studio.tiktokrec.ui.permissions.accessibilityservice.PermissionAccessibilityServiceFragment"
+        android:label="fragment_permission_accessibility"
+        tools:layout="@layout/fragment_permission_accessibility" >
+        <action
+            android:id="@+id/action_permissionAccessibilityServiceFragment_to_getStarsFragment"
+            app:destination="@id/getStarsFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/permissionAccessibilityServiceFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
